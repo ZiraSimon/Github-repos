@@ -1,0 +1,31 @@
+.repository {
+  background: linear-gradient(89.85deg, #151314 4.35%, #413f42 96.64%);
+  border: 2px solid #646284;
+  color: white;
+  padding:.8rem 1.2rem ;
+  border-radius: 12px;
+  width: 24rem;
+  height: fit-content;
+}
+
+.lang,
+.star,
+.fork {
+  display: flex;
+  align-items: center;
+  gap: .3rem
+}
+
+.repository > h4 {
+  font-size: 1.3rem;
+}
+
+.repository > p {
+  color: lightgray;
+  margin-bottom: 1rem;
+}
+
+.repository > div {
+  display: flex;
+  gap: 1.7rem;
+}

@@ -1,0 +1,32 @@
+.form {
+  display: flex;
+  gap: 0.5rem;
+}
+
+.form > input {
+  padding: 1rem;
+  width: 30rem;
+  font-size: 1.2rem;
+  border-radius: 12px;
+}
+
+.btn {
+  background-color: #2fa651;
+  width: 3.8rem;
+  height: 3.8rem;
+  border-radius: 12px;
+  font-size: 2rem;
+  text-align: center;
+  color: white;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center
+}
+
+
+
+.btn:hover {
+  background: #15692d;
+  transform: scale(1.05);
+}
